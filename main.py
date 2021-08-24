@@ -1,4 +1,4 @@
-import subprocess
+from x import subprocess * 
 
 results = subprocess.output (["netsh", "wlan", "show", "network"])
 results = results.replace("\r", "")
