@@ -16,5 +16,5 @@ while x < len(ls):
         x += 1
 
 while y < len (ssids):
-        print ssids[y]
+        print (ssids[y]) 
 
