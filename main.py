@@ -1,6 +1,6 @@
-from subprocess import * 
+import subprocess 
 
-results = subprocess.output (["netsh", "wlan", "show", "network"])
+results = subprocess.output(["netsh", "wlan", "show", "network"])
 results = results.replace("\r", "")
 
 ls = results.split ("\n")
